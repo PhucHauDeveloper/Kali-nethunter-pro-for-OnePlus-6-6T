@@ -13,7 +13,7 @@ If you want to unlock your bootloader you'll need to do a re-unlock.
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [EDL tools]() FILE NEEDED
+- [EDL tools](https://androidfilehost.com/?fid=11410963190603895067) FILE NEEDED
 
 ### Uninstall instructions
 
