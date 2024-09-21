@@ -55,9 +55,10 @@ adb pull /dev/block/by-name/boot boot.img
 ```
 
 ### Partitioning guide
-> Your OnePlus 6 may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
+> Your OnePlus 6/6T may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
 
 #### Unmount data
+> Rerun the command until you see the message `umount: /dev/block/sda17: Invalid argument`
 ```cmd
 adb shell umount /dev/block/by-name/userdata
 ```
