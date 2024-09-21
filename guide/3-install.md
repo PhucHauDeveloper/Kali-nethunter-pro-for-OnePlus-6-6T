@@ -27,12 +27,12 @@ fastboot set_active b
 > Replace `path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enchilada].img` with the actual path of boot image (These files are located in the extracted folder of kali-nethunterpro-2024.3-sdm845.tar.xz)
 
 ```cmd
-fastboot flash boot path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enchilada].img
+fastboot flash boot_b path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enchilada].img
 ```
 
 #### Flash kali rootfs image
 ```cmd
-fastboot flash boot path\to\nethunterpro-20240822-sdm845-phosh.rootfs.img
+fastboot flash boot_b path\to\nethunterpro-20240822-sdm845-phosh.rootfs.img
 ```
 
 ### Reboot to fastboot
@@ -43,7 +43,7 @@ fastboot flash boot path\to\nethunterpro-20240822-sdm845-phosh.rootfs.img
 > 
 > IF YOU DON'T RUN THIS COMMAND YOU WON'T BE ABLE TO BOOT INTO KALI!!!
 ```cmd
-fastboot erase dtbo
+fastboot erase dtbo_b
 ```
 
 ### WARNING
