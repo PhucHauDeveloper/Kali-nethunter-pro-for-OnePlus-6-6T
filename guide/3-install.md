@@ -32,7 +32,7 @@ fastboot flash boot_b path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enc
 
 #### Flash kali rootfs image
 ```cmd
-fastboot flash boot_b path\to\nethunterpro-20240822-sdm845-phosh.rootfs.img
+fastboot flash linux path\to\nethunterpro-20240822-sdm845-phosh.rootfs.img
 ```
 
 ### Reboot to fastboot
