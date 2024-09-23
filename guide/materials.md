@@ -7,10 +7,11 @@
 
 
 ### General Audio
-> For me it didn't work but you can try running the following command as official instructions from debian. You need to make sure to run this command after the first boot.
+> If you use kali.org image it didn't work but you can try running the following command as official instructions from debian. You need to make sure to run this command after the first boot.
 ```cmd
 sudo systemctl mask alsa-restore
 ```
+> Or you can try Shubhamvis98 images, audio fully work!
 
 
 ### Run android tool on kali nethunter pro
