@@ -6,6 +6,7 @@
 
 ### Prerequisites
 - [Kali nethunter pro image](https://kali.download/nethunterpro-images/kali-2024.3/kali-nethunterpro-2024.3-sdm845.tar.xz)
+- [Kali nethunter pro image with audio work]([https://github.com/Shubhamvis98/kali-pinephone/releases/download/20240813/kali_phosh_sdm845_20240813.img.xz](https://github.com/Shubhamvis98/kali-pinephone/releases/tag/20240813))
 
 ### Installing change boot slot
 > Boot into fastboot, I assume you have installed android on boot a, now switch to boot b, if not sure run the following command
@@ -21,10 +22,10 @@ fastboot set_active b
 ```
 
 ### Installing Kali nethunter pro
-- Unpack the kali-nethunterpro-2024.3-sdm845.tar.xz archive
+- Unpack the kali-nethunterpro-2024.3-sdm845.tar.xz or kali_phosh_sdm845_20240813.img.xz archive
 
 #### Flash boot image
-> Replace `path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enchilada].img` with the actual path of boot image (These files are located in the extracted folder of kali-nethunterpro-2024.3-sdm845.tar.xz)
+> Replace `path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enchilada].img` with the actual path of boot image (These files are located in the extracted folder of kali-nethunterpro-2024.3-sdm845.tar.xz/kali_phosh_sdm845_20240813.img.xz)
 
 ```cmd
 fastboot flash boot_b path\to\nethunterpro-20240822-sdm845-phosh.boot-fajita[enchilada].img
@@ -51,7 +52,7 @@ fastboot erase dtbo_b
 > IF YOU REBOOT INTO KALI AND IT DOESN'T SHOW THE COMMAND LINE, MAKE SURE YOU ERASE DTBO
 
 ### Reboot to kali nethunter pro
-Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into kali, password is 1234, for the last step.
+Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into kali, password is 1234 or 8888, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/4-dualboot.md)
 
