@@ -6,22 +6,23 @@
 The project is in development. Expect some updates in the future.
 
 #### Features
-- [ ] Audio 
+- [x] Audio ```Use Shubhamvis98 images```
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
 - [ ] Camera
-- [x] LTE
+- [x] LTE ```IDK```
 - [x] Charging ```VERY slow```
 - [x] Display
 - [x] GPU  ```No x64 acceleration```
 - [x] Touchscreen
-- [ ] SMS ```IDK```
+- [x] SMS ```IDK```
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
+- [x] Flashlight
 
-#### Sensors
+#### Sensors(untest)
 - [x] Accelerometer ```IDK```
 - [ ] Fingerprint
 - [x] GPS ```IDK```
