@@ -6,7 +6,7 @@
 
 ### Prerequisites
 - [Kali nethunter pro image](https://kali.download/nethunterpro-images/kali-2024.3/kali-nethunterpro-2024.3-sdm845.tar.xz)
-- [Kali nethunter pro image with audio work]([https://github.com/Shubhamvis98/kali-pinephone/releases/download/20240813/kali_phosh_sdm845_20240813.img.xz](https://github.com/Shubhamvis98/kali-pinephone/releases/tag/20240813))
+- [Kali nethunter pro image with audio work](https://github.com/Shubhamvis98/kali-pinephone/releases/tag/20241104)
 
 ### Installing change boot slot
 > Boot into fastboot, I assume you have installed android on boot a, now switch to boot b, if not sure run the following command
