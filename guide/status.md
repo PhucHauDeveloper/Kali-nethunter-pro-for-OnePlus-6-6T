@@ -10,7 +10,7 @@ The project is in development. Expect some updates in the future.
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
-- [ ] Camera
+- [X] Camera ```Use Shubhamvis98 images```
 - [x] LTE ```IDK```
 - [x] Charging ```VERY slow```
 - [x] Display
@@ -24,7 +24,7 @@ The project is in development. Expect some updates in the future.
 
 #### Sensors(untest)
 - [x] Accelerometer ```IDK```
-- [ ] Fingerprint
+- [ ] Fingerprint ```No hope```
 - [x] GPS ```IDK```
 - [x] Gyroscope ```IDK```
 - [ ] Light sensor
