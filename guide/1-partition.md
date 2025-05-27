@@ -7,9 +7,11 @@
 ### Prerequisites
 - Unlocked bootloader
 
+- OOS 11 or AOSP 11 on both slot
+
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modded TWRP](https://github.com/WoA-OnePlus-6-Series/WoA-on-OnePlus6-Series/releases/tag/Recovery)
+- [Modded TWRP](https://github.com/WoA-OnePlus-6-Series/WoA-on-OnePlus6-Series/releases/download/Recovery/TWRP-OP6xT.img)
 
 ### Notes
 > [!WARNING]  
